@@ -44,12 +44,12 @@ function MainComponent() {
           transition={{ duration: 0.5, delay: 1.5 }}
         >
           <Link to='/dashboard'>
-            <Button text={"Dashboard"} onClick={() => console.log("Btn Clicked")} />
+            <Button text={"Dashboard"} />
             </Link>
             <RWebShare
             data={{
               text: "CryptoDashboard made by Preetham konala using React JS.",
-              url: "https://cryptotracker-preethams.netlify.app/",
+              url: "https://cryptodashboardumesh.netlify.app/",
               title: "CryptoTracker.",
             }}
             onClick={() => toast.info("App Shared!")}
