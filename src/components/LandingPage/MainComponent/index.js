@@ -48,7 +48,7 @@ function MainComponent() {
             </Link>
             <RWebShare
             data={{
-              text: "CryptoDashboard made by Preetham konala using React JS.",
+              text: "CryptoDashboard made by Umesh Golani using React JS.",
               url: "https://cryptodashboardumesh.netlify.app/",
               title: "CryptoTracker.",
             }}
